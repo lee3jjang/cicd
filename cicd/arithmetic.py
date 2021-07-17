@@ -44,3 +44,21 @@ class Calculator:
         """
 
         return x-y
+
+    def mult(self, x: int, y: int) -> int:
+        """multiply two numbers
+
+        Parameters
+        ----------
+        x : int
+            left number   
+        y : int
+            right number
+
+        Returns
+        -------
+        int
+            product of two numbers
+        """
+        
+        return x*y
