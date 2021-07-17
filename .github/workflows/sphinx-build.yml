@@ -18,7 +18,7 @@ jobs:
     - name: Commit documentation changes
       run: |
         git clone https://github.com/lee3jjang/cicd.git --branch gh-pages --single-branch gh-pages
-        cp -r docs/_build/html/* gh-pages/
+        cp -r docs/html/* gh-pages/
         cd gh-pages
         git config --local user.email "lee3jjang@github.com"
         git config --local user.name "GitHub Action"
