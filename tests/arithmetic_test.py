@@ -7,3 +7,7 @@ def test_add(calc, x, y, z):
 @pytest.mark.parametrize("x, y, z", [(4, 2, 2), (6, 3, 3), (5, 10, -5)])
 def test_sub(calc, x, y, z):
     assert calc.sub(x, y) == z
+
+@pytest.mark.parametrize("x, y, z", [(4, 2, 8), (6, 3, 18), (5, 10, 50)])
+def test_sub(calc, x, y, z):
+    assert calc.mult(x, y) == z
