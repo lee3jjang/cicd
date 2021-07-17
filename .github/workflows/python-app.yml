@@ -35,4 +35,5 @@ jobs:
       run: |
         python -m pytest
     - name: Make docs
+      run: |
         make html
