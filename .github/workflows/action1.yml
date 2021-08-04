@@ -1,12 +1,15 @@
-name: Greet Everyone
+name: name of Action
 
 on: [push]
 
 jobs:
   build:
-    name: Greeting
+    name: name of Build
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
+      - name: name of step 1
         run: echo Hello World
+        shell: bash
+      - name: name of step 2
+        run: echo Nice to meet you
         shell: bash
