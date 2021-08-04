@@ -34,8 +34,13 @@ jobs:
       - name: name of step 9
         run: echo `ls ~/work/cicd/cicd -a`
         shell: bash
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
       - name: name of step 10
         run: |
+          python -m pip install --upgrade pip
           pip install pytest  
           pytest
         shell: bash
