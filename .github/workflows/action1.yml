@@ -28,3 +28,6 @@ jobs:
       - name: name of step 7
         run: echo `ls ~/runners -a`
         shell: bash
+      - name: name of step 8
+        run: echo `ls ~/runners/cicd -a`
+        shell: bash
