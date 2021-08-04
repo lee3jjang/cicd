@@ -11,5 +11,5 @@ jobs:
         run: echo Hello World
         shell: bash
       - name: name of step 2
-        run: echo Nice to meet you
+        run: ll
         shell: bash
