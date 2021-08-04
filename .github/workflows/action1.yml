@@ -7,6 +7,7 @@ jobs:
     name: name of Build
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: name of step 1
         run: echo Hello World
         shell: bash
@@ -34,7 +35,6 @@ jobs:
       - name: name of step 9
         run: echo `ls ~/work/cicd/cicd -a`
         shell: bash
-      - uses: actions/checkout@v2
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
         with:
