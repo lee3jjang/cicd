@@ -13,3 +13,6 @@ jobs:
       - name: name of step 2
         run: echo `ls .. -al`
         shell: bash
+      - name: name of step 3
+        run: echo `ls -al`
+        shell: bash
