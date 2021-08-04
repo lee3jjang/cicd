@@ -11,5 +11,5 @@ jobs:
         run: echo Hello World
         shell: bash
       - name: name of step 2
-        run: echo `ls .. -al`
+        run: echo `ls -al`
         shell: bash
