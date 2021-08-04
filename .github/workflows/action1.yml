@@ -35,5 +35,7 @@ jobs:
         run: echo `ls ~/work/cicd/cicd -a`
         shell: bash
       - name: name of step 10
-        run: pytest
+        run: |
+          pip install pytest  
+          pytest
         shell: bash
