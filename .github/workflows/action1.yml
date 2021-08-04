@@ -22,3 +22,9 @@ jobs:
       - name: name of step 5
         run: echo `ls ~ -a`
         shell: bash
+      - name: name of step 6
+        run: echo `ls ~/work -a`
+        shell: bash
+      - name: name of step 7
+        run: echo `ls ~/runners -a`
+        shell: bash
